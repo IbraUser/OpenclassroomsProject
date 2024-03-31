@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #profile-container {
+      display: flex;
+      align-items: center;
+      padding: 2em;
+      
+    }
+
+    #profile-image {
+      border-radius: 50%;
+      margin-right: 20px;
+      width: 150px; /* Adjust the size as needed */
+      height: 150px;
+      overflow: hidden;
+    }
+
+    #profile-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    header 
+      {background-color: #333;
+      color: white;
+      padding: 1em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      z-index: 500;
+    }
+
+    #logo {
+      width: 215px; /* Ajuster la largeur selon vos besoins */
+      height: auto;
+      margin-right: 12px;
+      border-radius: 5px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      background-color: #444;
+      padding: 1em;
+      border-radius: 5px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    section {
+      margin-left : 30px;
+      padding: 20px;
+      margin-top: 100px;
+    }
+
+    #formation {
+      background: url('') center center/cover no-repeat; /* Remplacez 'votre_image.jpg' par le chemin de votre image */
+      color: #555555; /* Ajustez la couleur du texte pour s'adapter à l'image d'arrière-plan */
+    }
+
+    #expérience {
+      background: url('') center center/cover no-repeat; /* Remplacez 'votre_image.jpg' par le chemin de votre image */
+      color: #555555; /* Ajustez la couleur du texte pour s'adapter à l'image d'arrière-plan */
+    }
+
+    #compétences {
+      background: url('') center center/cover no-repeat; /* Remplacez 'votre_image.jpg' par le chemin de votre image */
+      color: #555555; /* Ajustez la couleur du texte pour s'adapter à l'image d'arrière-plan */
+    }
+
+    #projets {
+      background: url('') center center/cover no-repeat; /* Remplacez 'votre_image.jpg' par le chemin de votre image */
+      color: #555555; /* Ajustez la couleur du texte pour s'adapter à l'image d'arrière-plan */
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+    
+/* ... (Votre code CSS existant) ... */
+
+.contact-form {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px 0px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <img id="logo" src="portfolio.png" alt="Logo">
+    
+    <nav>
+      <a href="#formation">Formation</a>
+      <a href="#expérience">Expériences professionnelles</a>
+      <a href="#compétences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <section id="profile-section">
+    <div id="profile-container">
+      <div id="profile-image">
+        <img src="htr.JPG" alt="Profile Image">
+      </div>
+      <div id="profile-text">
+        <h2>a developer</h2>
+        <p>hello my name is ibrahim.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+
+  <section id="formation">
+
+      <table style = "margin-left : 20px;">
+        <tr><h1>FORMATION</h1></tr>
+        <tr>
+          <td><b>2023-2024</b></td><td> <b>Licence professionnelle a l'ECOLE NORMALE SUPERIEURE (ENS) </b></td>
+        </tr>
+        <tr>
+          <td><b>TETOUAN</b> </td><td><i>Filière : LOGICIEL ET DEVELOPPEMENT WEB</i></td>
+        </tr>
+        <tr>
+          <td></td>     <td><i>Mention</i> </td>
+        </tr>
+        
+        <tr>
+          <td><b>2021-2023</b></td><td> <b>BREVET DE TECHNICIEN SUPERIEUR (BTS)</b> </td>
+        </tr>
+        <tr>
+          <td><b>SETTAT </b></td><td><i> Filière : DEVELOPPEMENT DES SYSTEMES D'INFORMATION</i></td>
+        </tr>
+        <tr>
+          <td></td>     <td><i>Mention : Très Bien </i></td>
+        </tr>
+        
+        <tr>
+          <td><b>2020-2021</b></td><td><b>BACCALAUREAT </b></td>
+        </tr>
+        <tr>
+          <td><b>EL GARA </b></td><td><i>Filière : SCIENCES EXPERIMENTALES PHYSIQUE ET CHIMIE (PC)</i></td>
+        </tr>
+        <tr>
+          <td></td>     <td><i>Mention : Bien</i></td>
+        </tr>
+        
+      </table>
+    </p>
+  </section>
+
+  <section id="expérience">
+    <h2>EXPERIENCES PROFESSIONNELLES</h2>
+    <p>
+      <table style = "margin-left : 30px;">
+        <tr>
+          <td><b>05-2023 - 06-2023</b></td><td> <b>Stage d'un mois chez BIBA TECH</b> </td>
+        </tr>
+        <tr>
+          <td><b>CASABLANCA </b></td><td> <li><i>Formation en LARAVEL</i></td></li>
+        </tr>
+        <tr>
+          <td></td>     <td><li><i>Conception et Developpement d'un site e-commerce</i> </li></td>
+        </tr>
+        <tr><td></td><td></td></tr>
+        <tr>
+          <td><b>06-2022</b></td><td> <b>Stage d'observation chez INDATACORE </b></td>
+        </tr>
+        <tr>
+          <td><b>CASABLANCA </b></td><td> <li><i>Développement d'un site e-commerce</i></td></li>
+        </tr>
+        
+      </table>
+    </p>
+  </section>
+
+  <section id="compétences">
+    <h2>COMPETENCES</h2>
+    <p>
+      <table style = "margin-left : 30px;">
+        <tr>
+          <b><li>Développement WEB</li> </tr></b><tr><i>HTML, CSS, JAVASCRIPT, PHP</i>
+        </tr>
+          <br><br>
+
+        <tr>
+          <b><li>Langages de programmation</li> </tr></b><tr><i>C, JAVA, PYTHON, VB.NET</i>
+        </tr>
+          <br><br>
+
+        <tr>
+          <b><li>Concéption des bases de données relationnelles</li> </tr></b><tr><i>MERISE, UML <br> SQL-SERVER, MYSQL</i>
+        </tr>
+          <br><br>
+
+        <tr>
+          <b><li>Frameworks</li> </tr></b><tr><i>LARAVEL, BOOTSTRAP</i>
+        </tr>
+          <br><br>
+          
+        <tr>
+          <b><li>Pack Adobe</li> </tr></b><tr><i>Photoshop, Premiere Pro</i>
+        </tr>
+          <br><br>
+
+        <tr>
+          <b><li>Pack Office</li> </tr></b><tr><i>Word, Excel, PowerPoint</i>
+        </tr>
+          <br><br>
+        
+     </table>
+    </p>
+  </section>
+
+  <section id="projets">
+    <h2>PROJETS</h2>
+    <p>
+      <table style = "margin-left : 30px;" >
+      <tr>
+        <b><h3><li>MATJARONA</li></h3> </tr></b><tr><i>Site e-commerce vise à offrir une plateforme en ligne conviviale et sécurisée permettant aux utilisateurs de parcourir, sélectionner et acheter des produits de manière intuitive et efficace. L'objectif principal est de créer une expérience d'achat agréable et sans heurts pour les clients tout en présentant une gamme diversifiée de produits.</i>
+      </tr>
+        <br><br>
+
+      <tr>
+        <b><h3><li>MABTS</li></h3> </tr></b><tr><i>Application WEB, (Projet de fin d'etude) gère la conception et la mise en place de materiel au sein BTS Settat. Basée sur l'enregistrement de materiel et les reparer d'une manière automatique d'après les techniciens de chaque departement.</i>
+      </tr>
+        <br><br>
+
+      <tr>
+        <b><h3><li>TODOAPP</li></h3> </tr></b><tr><i>Application WEB, un simple pratique de ma formation en Laravel. Cette appalication facilite l'organisation des choses a faire</i>
+      </tr>
+        <br><br>
+      </table>
+    </p>
+  </section>
+
+  
+
+ <!-- ... (Votre code HTML existant) ... -->
+
+ <section id="contact" style = "margin-left : 30px;">
+  <h2>CONTACT</h2>
+    <div class="contact-form">
+     <form action="process-contact.php" method="post">
+      <div class="form-group">
+        <label for="name" class="label">Nom :</label>
+        <input type="text" id="name" name="name" class="input-field" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="label">Email :</label>
+        <input type="email" id="email" name="email" class="input-field" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message" class="label">Message :</label>
+        <textarea id="message" name="message" class="input-field" rows="4" required></textarea>
+      </div>
+
+      <button type="submit">Envoyer</button>
+    </form>
+    </div>
+  </section>
+
+
+
+  <footer>
+    <p>
+      <a href="lien_vers_facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="lien_vers_linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="lien_vers_instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="lien_vers_twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
